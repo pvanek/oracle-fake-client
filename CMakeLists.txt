@@ -51,7 +51,7 @@ string(TOLOWER ${CMAKE_PROJECT_NAME} CPACK_PACKAGE_NAME)
 SET(CPACK_PACKAGE_VERSION "${VERSION}")
 SET(CPACK_SOURCE_GENERATOR "TBZ2")
 SET(CPACK_SOURCE_PACKAGE_FILE_NAME "${CPACK_PACKAGE_NAME}-${CPACK_PACKAGE_VERSION}")
-SET(CPACK_IGNORE_FILES "/CVS/;/\\\\.git/;/\\\\.svn/;\\\\.swp$;\\\\.#;/#;\\\\.tar.gz$;/CMakeFiles/;CMakeCache.txt;refresh-copyright-and-license.pl")
+SET(CPACK_IGNORE_FILES "/build/;/release/;/CVS/;/\\\\.git/;/\\\\.svn/;\\\\.swp$;\\\\.#;/#;\\\\.tar.gz$;/CMakeFiles/;CMakeCache.txt;refresh-copyright-and-license.pl")
 SET(CPACK_SOURCE_IGNORE_FILES ${CPACK_IGNORE_FILES})
 INCLUDE(CPack)
 # simulate autotools' "make dist"
