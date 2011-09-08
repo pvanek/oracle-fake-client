@@ -25,7 +25,7 @@ cmake -DCMAKE_VERBOSE_MAKEFILE=TRUE -DCMAKE_INSTALL_PREFIX="%{_prefix}" .
 make
 
 %install
-%__make -C build-dir install DESTDIR="%buildroot"
+%__make install DESTDIR="%buildroot"
 
 
 %post   -p /sbin/ldconfig
