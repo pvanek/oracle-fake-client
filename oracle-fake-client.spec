@@ -8,6 +8,8 @@ Group: Clients
 URL: https://github.com/pvanek/oracle-fake-client
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 Provides: libclntsh.so.11.1
+BuildRequires: cmake gcc-c++
+Group: Development/Libraries/Other
 
 %description
 This package contains fake oracle client. It does not mean you can run any SW with it. You

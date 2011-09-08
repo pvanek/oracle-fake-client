@@ -1,0 +1,3 @@
+from Config import *
+setBadness('shlib-policy-name-error', 0)
+
