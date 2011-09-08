@@ -1,0 +1,5 @@
+This package contains fake oracle client. It does not mean you can run any SW with it. You
+need to download at least instant client from Oracle website. Yes, it's closed source
+but free-as-a-beer.
+http://www.oracle.com/technetwork/database/features/instant-client/index-097480.html
+
